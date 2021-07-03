@@ -30,7 +30,7 @@ public class SnakeThread  implements Runnable {
 	private int count;//count the length of snake
 
 	private Level level;
-	private int index ; // determint where to draw food by points
+	private int index ; // Determine where to draw food by points
 
 	private int score;
 	private int highScore;
