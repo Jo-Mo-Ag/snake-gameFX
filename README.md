@@ -1,2 +1,2 @@
 # snake-gameFX
-classical snake game for disk top 
+classical snake game for disktop 
