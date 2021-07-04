@@ -49,9 +49,9 @@ public class SnakeThread  implements Runnable {
 		width=(int) canvas.getWidth();
 		height=(int) canvas.getHeight();
 		graphicsContext=canvas.getGraphicsContext2D();
-		food = new Image(getClass().getResource("SnakeImage.png").toString(),
+		food = new Image(getClass().getResource("food_forground.png").toString(),
 				size, size, false, false);
-		faceUp=new Image(getClass().getResource("UpMouth.png").toString(), size, size, false, false);
+		faceUp=new Image(getClass().getResource("UpMouth.png").toString(), size, size, true, true);
 		faceDown=new Image(getClass().getResource("DownMouth.png").toString(), size, size, false, false);
 		faceRight=new Image(getClass().getResource("RightMouth.png").toString(), size, size, false, false);
 		faceLeft=new Image(getClass().getResource("LeftMouth.png").toString(), size, size, false, false);
