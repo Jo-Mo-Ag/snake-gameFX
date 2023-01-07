@@ -1,3 +1,9 @@
+.idea
+.vscode/
+.project
+.classpath
+.settings/
+.gradle/
 .metadata
 bin/
 tmp/
